@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D5698A2191F155D000F1497 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7D5698A1191F155D000F1497 /* LICENSE */; };
+		7D5698A4191F15B7000F1497 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D5698A3191F15B7000F1497 /* README.md */; };
 		7D8D8E1C191E75890019C025 /* DictManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D8E1B191E75890019C025 /* DictManager.m */; };
 		7DEBC176191E2BD2001C3360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEBC175191E2BD2001C3360 /* Foundation.framework */; };
 		7DEBC178191E2BD2001C3360 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEBC177191E2BD2001C3360 /* CoreGraphics.framework */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D5698A1191F155D000F1497 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7D5698A3191F15B7000F1497 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		7D8D8E1A191E75890019C025 /* DictManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictManager.h; sourceTree = "<group>"; };
 		7D8D8E1B191E75890019C025 /* DictManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictManager.m; sourceTree = "<group>"; };
 		7DEBC172191E2BD2001C3360 /* Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +135,8 @@
 		7DEBC17C191E2BD2001C3360 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D5698A1191F155D000F1497 /* LICENSE */,
+				7D5698A3191F15B7000F1497 /* README.md */,
 				7DEBC17D191E2BD2001C3360 /* Dictionary-Info.plist */,
 				7DEBC17E191E2BD2001C3360 /* InfoPlist.strings */,
 				7DEBC181191E2BD2001C3360 /* main.m */,
@@ -236,6 +242,8 @@
 			files = (
 				7DEBC18E191E2BD2001C3360 /* Images.xcassets in Resources */,
 				7DEBC180191E2BD2001C3360 /* InfoPlist.strings in Resources */,
+				7D5698A4191F15B7000F1497 /* README.md in Resources */,
+				7D5698A2191F155D000F1497 /* LICENSE in Resources */,
 				7DEBC189191E2BD2001C3360 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
