@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D8D8E1C191E75890019C025 /* DictManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D8E1B191E75890019C025 /* DictManager.m */; };
 		7DEBC176191E2BD2001C3360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEBC175191E2BD2001C3360 /* Foundation.framework */; };
 		7DEBC178191E2BD2001C3360 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEBC177191E2BD2001C3360 /* CoreGraphics.framework */; };
 		7DEBC17A191E2BD2001C3360 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEBC179191E2BD2001C3360 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D8D8E1A191E75890019C025 /* DictManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictManager.h; sourceTree = "<group>"; };
+		7D8D8E1B191E75890019C025 /* DictManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictManager.m; sourceTree = "<group>"; };
 		7DEBC172191E2BD2001C3360 /* Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DEBC175191E2BD2001C3360 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DEBC177191E2BD2001C3360 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				7DEBC187191E2BD2001C3360 /* Main.storyboard */,
 				7DEBC18A191E2BD2001C3360 /* DictViewController.h */,
 				7DEBC18B191E2BD2001C3360 /* DictViewController.m */,
+				7D8D8E1A191E75890019C025 /* DictManager.h */,
+				7D8D8E1B191E75890019C025 /* DictManager.m */,
 				7DEBC18D191E2BD2001C3360 /* Images.xcassets */,
 				7DEBC17C191E2BD2001C3360 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				7DEBC186191E2BD2001C3360 /* DictAppDelegate.m in Sources */,
 				7DEBC182191E2BD2001C3360 /* main.m in Sources */,
 				7DEBC18C191E2BD2001C3360 /* DictViewController.m in Sources */,
+				7D8D8E1C191E75890019C025 /* DictManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				7DEBC1A6191E2BD2001C3360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DEBC1A7191E2BD2001C3360 /* Build configuration list for PBXNativeTarget "DictionaryTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				7DEBC1A9191E2BD2001C3360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

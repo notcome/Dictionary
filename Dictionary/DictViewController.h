@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <UIKit/UITextChecker.h>
 
-@interface DictViewController : UIViewController
+@interface DictViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UIActionSheetDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 @end
