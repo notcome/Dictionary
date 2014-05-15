@@ -132,6 +132,9 @@ typedef NS_ENUM(NSInteger, DictSectionType) {
 
 - (BOOL)isNoGuessFound
 {
+    if ([self showHistory]) {
+        return NO;
+    }
     if ([self numberOfSectionsInTableView] == 2) {
         return NO;
     }
